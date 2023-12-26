@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: azd-afa-dotnet
+metadata:
+    template: azd-init@1.5.1
+services:
+  afa:
+    project: src
+    language: dotnet
+    host: function
